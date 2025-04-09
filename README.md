@@ -7,28 +7,29 @@ This repository contains the full code, data, and analysis for a master's thesis
 Traditional NFL scouting often emphasises athletic testing and draft pedigree, but may overlook consistent collegiate performance. This project builds machine learning models using college statistics and Combine data from 2008–2024 to predict professional success, measured by **Weighted Career Approximate Value per Year (WCarAV/year)**.
 
 ## 📁 Project Structure
-.
-├── data/                         # Contains all data files
-│   ├── def_college_stats_2008.xlsx
-│   ├── def_college_stats_2009.xlsx
-│   ├── ...                       # Yearly college stats through 2024
-│   ├── combined_college_data.xlsx
-│   ├── combine_data.xlsx
-│   ├── draft_data.xlsx
 
-├── scrape/                       # Python scripts to scrape raw data
-│   ├── scrape_college_data.py
-│   ├── scrape_combine_data.py
-│   ├── scrape_draft_data.py
+📁 data/
+├── def_college_stats_2008.csv   - College stats for 2008
+├── ...                          - Yearly college stats up to 2024
+├── cleaned_cfb_def_stats.csv    - Merged college dataset
+├── combine_table.csv            - NFL Combine data
+├── draft_table.csv              - NFL Draft results
 
-├── 1.1 Combine Defensive Files.ipynb   # Combines and aligns data sources
-├── 1.2 Data Preprocessing.ipynb        # Cleans and prepares datasets
-├── 1.3 Correlations.ipynb              # Correlation analysis (draft vs success)
-├── 1.4.1 Modelling DL.ipynb            # Modelling pipeline for Defensive Linemen
-├── 1.4.2 Modelling LB.ipynb            # Modelling pipeline for Linebackers
-├── 1.4.3 Modelling DB.ipynb            # Modelling pipeline for Defensive Backs
+📁 scrape/
+├── Scrape_College_Stats_Defence_2008.py       - Scrapes college stats for 2008
+├── ...                                        - Scrapes college stats up to 2024
+├── Scrape_NFL_Combine.py                      - Scrapes NFL Combine metrics
+├── Scrape_NFL_Draft.py                        - Scrapes NFL Draft information
 
-├── README.md                    # Project overview and documentation
+📄 1.1 Combine Defensive Files.ipynb    - Merges raw datasets
+📄 1.2 Data Preprocessing.ipynb        - Cleans and prepares full dataset
+📄 1.3 Correlations.ipynb              - Correlation analysis of features
+📄 1.4.1 Modelling DL.ipynb            - Modelling for Defensive Linemen
+📄 1.4.2 Modelling LB.ipynb            - Modelling for Linebackers
+📄 1.4.3 Modelling DB.ipynb            - Modelling for Defensive Backs
+
+📄 README.md                           - Project overview and documentation
+
 
 
 
