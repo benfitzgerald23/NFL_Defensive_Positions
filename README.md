@@ -8,27 +8,27 @@ Traditional NFL scouting often emphasises athletic testing and draft pedigree, b
 
 ## 📁 Project Structure
 
-📁 data/
+📁 data/ <br>
 ├── def_college_stats_2008.csv   - College stats for 2008 <br>
-├── ...                          - Yearly college stats up to 2024
-├── cleaned_cfb_def_stats.csv    - Merged college dataset
-├── combine_table.csv            - NFL Combine data
-├── draft_table.csv              - NFL Draft results
+├── ...                          - Yearly college stats up to 2024 <br>
+├── cleaned_cfb_def_stats.csv    - Merged college dataset <br>
+├── combine_table.csv            - NFL Combine data <br>
+├── draft_table.csv              - NFL Draft results <br>
 
-📁 scrape/
-├── Scrape_College_Stats_Defence_2008.py       - Scrapes college stats for 2008
-├── ...                                        - Scrapes college stats up to 2024
-├── Scrape_NFL_Combine.py                      - Scrapes NFL Combine metrics
-├── Scrape_NFL_Draft.py                        - Scrapes NFL Draft information
+📁 scrape/ <br>
+├── Scrape_College_Stats_Defence_2008.py       - Scrapes college stats for 2008 <br>
+├── ...                                        - Scrapes college stats up to 2024 <br>
+├── Scrape_NFL_Combine.py                      - Scrapes NFL Combine metrics <br>
+├── Scrape_NFL_Draft.py                        - Scrapes NFL Draft information <br>
 
-📄 1.1 Combine Defensive Files.ipynb    - Merges raw datasets
-📄 1.2 Data Preprocessing.ipynb        - Cleans and prepares full dataset
-📄 1.3 Correlations.ipynb              - Correlation analysis of features
-📄 1.4.1 Modelling DL.ipynb            - Modelling for Defensive Linemen
-📄 1.4.2 Modelling LB.ipynb            - Modelling for Linebackers
-📄 1.4.3 Modelling DB.ipynb            - Modelling for Defensive Backs
+📄 1.1 Combine Defensive Files.ipynb    - Merges raw datasets <br>
+📄 1.2 Data Preprocessing.ipynb        - Cleans and prepares full dataset <br>
+📄 1.3 Correlations.ipynb              - Correlation analysis of features <br>
+📄 1.4.1 Modelling DL.ipynb            - Modelling for Defensive Linemen<br>
+📄 1.4.2 Modelling LB.ipynb            - Modelling for Linebackers <br>
+📄 1.4.3 Modelling DB.ipynb            - Modelling for Defensive Backs <br>
 
-📄 README.md                           - Project overview and documentation
+📄 README.md                           - Project overview and documentation <br>
 
 
 
