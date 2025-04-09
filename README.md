@@ -9,7 +9,7 @@ Traditional NFL scouting often emphasises athletic testing and draft pedigree, b
 ## 📁 Project Structure
 
 📁 data/
-├── def_college_stats_2008.csv   - College stats for 2008
+├── def_college_stats_2008.csv   - College stats for 2008 <br>
 ├── ...                          - Yearly college stats up to 2024
 ├── cleaned_cfb_def_stats.csv    - Merged college dataset
 ├── combine_table.csv            - NFL Combine data
